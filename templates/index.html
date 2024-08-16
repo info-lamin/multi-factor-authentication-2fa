@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Factor Authentication</title>
+</head>
+
+<body>
+    <form action="/2fa" method="get">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <button type="submit" name="submit" value="generate">Generate QR</button>
+        <button type="submit" name="submit" value="validate">Validate Code</button>
+    </form>
+</body>
+
+</html>
